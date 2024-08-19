@@ -4,8 +4,6 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
-
-
 /******************************** CSS for Big Screens ************************************/
 
 @media (min-width:990px){
@@ -309,21 +307,25 @@ body{
 /************************************** Medium Screens ***************************/
 
 
-@media (min-width:586px) and (max-width:990px) 
-{
+@media (min-width:586px) and (max-width:989px) 
+{   
+    .body{
+        margin: 0;
+        /* overflow: hidden; */
+    }
     .bg{
         width: 100%;
         height: 90vh;
     }
     .bg-img{
-        width: 100vw;
+        width: 100%;
         height: 90vh;
         object-fit: cover;
         position: absolute;
         transform: scale(1);
     }
     .tint{
-        width: 100vw;
+        width: 100%;
         height: 90vh;
         background-color: rgba(0, 0, 0, 0.445);
         position: absolute;
@@ -341,7 +343,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: calc(100vw - 80px);
+        width: calc(100% - 80px);
     }
     .logo{
         color: rgb(229, 9, 20);
@@ -428,15 +430,22 @@ body{
         border-bottom: 6px solid #eeeeee3c;
     }
     .container{
+        margin: 0 auto;
         color: white;
-        height: 100vh;
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        /* margin: 32px 32px; */
         align-items: center;
+        justify-content: center;
     }
-    
+    .container-reverse{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
     .left{
         width: 90%;
         text-align: center;
@@ -446,7 +455,7 @@ body{
         margin-bottom: 10px;
     }
     .sub-heading{
-        font-size: 2.5vmax;
+        font-size: 2vmax;
     }
     .right{
         width: 100%;
@@ -460,14 +469,14 @@ body{
         position: relative;
     }
     .video{  
-        margin-left: 65px; 
+        margin-left: 39px; 
         width: 75%;
         height: 94%;
         object-fit: contain;
         position: absolute;
     }
     .real-tv{
-        width: 60%;
+        width: 43%;
         position: relative;
         display: block;
         margin: auto;
@@ -480,37 +489,39 @@ body{
         background-color: rgba(0, 0, 0, 0.881);
         border: 2px solid rgba(255, 255, 255, 0.308);
         border-radius: 10px;
-        width: 60%;
+        width: 70%;
         position: absolute;
-        left: 17%;
-        bottom: 8%;
-        padding: 8px ;
+        left: 14%;
+        bottom: 10%;
         display: flex;
         gap: 15px;
         justify-content: center;
+        align-items: center;
     }
     .st-heading{
-        font-size: 5vmax;
+        font-size: 4vmax;
         margin-bottom: 10px;
     }
     .st-sub-heading{
-        font-size:3vmax;
+        font-size:2vmax;
     }
     .thumbnail{
-        width: 55px;
-        height: 80px;
+        margin-left: 10px;
+        width: 35px;
+        height: 40px;
     }
     .st-title{
-        margin-bottom: 2px;
+        margin-bottom: 0px;
+        font-size: 12px;
     }
     .st-sub-title{
         margin-top: 0px;
         color: #0071eb;
-        font-size: 14px;
+        font-size: 12px;
     }
     .gif{
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 35px;
         margin-top: 5px;
     }
     .title-flex{
@@ -519,22 +530,27 @@ body{
         justify-content: space-between;
         align-items: center;
     }
-    .video1{  
-        margin-left: 85px; 
-        width: 65%;
-        height: 60%;
+    .video1{ 
+        margin-top: 10px; 
+        margin-left: 54px; 
+        width: 60%;
+        height: 50%;
         object-fit: contain;
         position: absolute;
+        box-sizing: border-box;
     }
     .child-img{
-        width: 75%;
+        width: 60%;
     }
     .child-heading{
-        font-size: 4vmax;
+        font-size: 3vmax;
         margin-bottom: 10px;
     }
     .child-sub-heading{
-        font-size: 2.75vmax;
+        font-size: 2.25vmax;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
     }
     .child-right{
         width: 100%;
@@ -594,7 +610,8 @@ body{
     .link{
         color: rgba(255, 255, 255, 0.674);
     }.footer-box{
-        width: 100vw;
+        margin: 0 auto;
+        width: 100%;
         display: flex;
         gap: 4vmax;
     }
@@ -619,18 +636,18 @@ body{
 
 @media (max-width:586px){
     .bg{
-        width: 100vw;
+        width: 100%;
         height: 80vh;
     }
     .bg-img{
-        width: 100vw;
+        width: 100%;
         height: 80vh;
         object-fit: cover;
         position: absolute;
         transform: scale(1);
     }
     .tint{
-        width: 100vw;
+        width: 100%;
         height: 80vh;
         background-color: rgba(0, 0, 0, 0.445);
         position: absolute;
@@ -648,7 +665,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: calc(100vw - 80px);
+        width: calc(100% - 80px);
     }
     .logo{
         color: rgb(229, 9, 20);
@@ -721,7 +738,7 @@ body{
         border-radius: 4px;
         display: flex;
         align-items: center;
-        width: 30%;
+        width: 40%;
         justify-content: center;
         margin: auto;
     }
@@ -741,13 +758,20 @@ body{
     .container{
         color: white;
         height: 90vh;
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         /* margin: 32px 32px; */
         align-items: center;
     }
-    
+    .container-reverse{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
     .left{
         width: 90%;
         text-align: center;
@@ -776,7 +800,7 @@ body{
         position: absolute;
     }
     .real-tv{
-        width: 90vw;
+        width: 90%;
         position: relative;
         display: block;
         margin: auto;
@@ -847,6 +871,7 @@ body{
     }
     .child-sub-heading{
         font-size: 3vmax;
+        margin: 0 10px;
     }
     .child-right{
         width: 100%;
@@ -905,8 +930,9 @@ body{
     }
     .link{
         color: rgba(255, 255, 255, 0.674);
+        font-size: 12px;
     }.footer-box{
-        width: 90vw;
+        width: 90%;
         display: flex;
         gap: 4vmax;
     }
