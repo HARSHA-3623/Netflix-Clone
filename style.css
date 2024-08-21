@@ -543,11 +543,11 @@ body{
         width: 60%;
     }
     .child-heading{
-        font-size: 3vmax;
+        font-size: 4vmax;
         margin-bottom: 10px;
     }
     .child-sub-heading{
-        font-size: 2.25vmax;
+        font-size: 2vmax;
         width: 80%;
         margin: auto;
         margin-bottom: 20px;
