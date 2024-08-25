@@ -703,18 +703,18 @@ body{
         width: 100%;
     }
     .title{
-        font-size: 5vmax;
+        font-size: 3.25vmax;
         text-align: center;
-        margin-bottom: 0px;
+        margin:auto;
     }
     .sub-title{
-        font-size: 3.25vmax;
+        font-size: 2.75vmax;
         margin: 15px;
         font-weight: 400;
     }
     .desc{
         color: white;
-        font-size: 3vmax;
+        font-size: 2.75vmax;
         margin: 15px;
         font-weight: 400;
         text-align: center;
@@ -777,11 +777,11 @@ body{
         text-align: center;
     }
     .heading{
-        font-size: 5.5vmax;
+        font-size: 3.85vmax;
         margin-bottom: 10px;
     }
     .sub-heading{
-        font-size: 3vmax;
+        font-size: 2.75vmax;
     }
     .right{
         width: 100%;
@@ -824,13 +824,13 @@ body{
         align-items: center;
     }
     .st-heading{
-        font-size: 4.5vmax;
+        font-size: 3.85vmax;
         margin-bottom: 10px;
         margin: 10px 20px;
     }
     .st-sub-heading{
-        font-size:3vmax;
-        margin: 0 10px;
+        font-size:2.75vmax;
+        margin: 0 12px;
     }
     .thumbnail{
         margin-left: 10px;
@@ -868,12 +868,12 @@ body{
         width: 100%;
     }
     .child-heading{
-        font-size: 5vmax;
+        font-size: 3.85vmax;
         margin-bottom: 10px;
-        margin: 10px;
+        margin-top: 20px;
     }
     .child-sub-heading{
-        font-size: 3vmax;
+        font-size: 2.75vmax;
         margin: 0 14px;
     }
     .child-right{
@@ -882,7 +882,7 @@ body{
     }
     .faq{
         color: white;
-        font-size: 5vmax;
+        font-size: 3.85vmax;
         text-align: center;
         margin-bottom: 30px;
     }
@@ -903,7 +903,7 @@ body{
         cursor: pointer;
     }
     .que{
-        font-size: 2.75vmax;
+        font-size: 2.5vmax;
         font-weight: 400;
         color: white;
         margin-left: 20px;
